@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/responsivo.css">
+    <link rel="stylesheet" href="styles/vars.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/loggo.ico">
+    <title>Decodificador</title>
+</head>
+<body>
+    <header>
+        <img class="header-logo" src="img/logo.png" alt="header-logo">
+    </header> 
+    <main >
+        <section class="section-principal">
+            <textarea class="text-area" cols="41" rows="10" placeholder="Digite seu texto" oninput="(textAreaValidate())"></textarea>
+            <div class="information">
+                <img class="information-icon" src="img/loggo.png" alt="logo">
+                <h6 class="restricao">Apenas letras minúsculas e sem acento!</h6>
+            </div>
+            <div class="button">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="btn-desencriptar" onclick="bntDesencriptar()">Descriptografar</button>
+            </div>
+        </section>
+        <section class="section-mensagem">
+            <img class="img-busca" src="./img/image.jpg" alt="">
+            
+            <textarea class="mensagem" cols="20" rows="11"></textarea>
+            <div class="mensagem-aviso">
+                <h1 id="foto" class="mensagem-aviso-titulo" >Nenhuma mensagem encontrada</h1>
+                <p class="mensagem-aviso-paragrafo">Digite um texto que você deseja criptografar ou descriptografar</p>
+            </div>
+            <button class="btn-copiar" onclick="copiarTexto()">Copiar</button>
+        </section>
+    </main>   
+    <script src="script.js"></script>
+     
+</body>
+</html>

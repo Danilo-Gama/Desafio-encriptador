@@ -1,0 +1,196 @@
+@media screen and (min-width: 320px) and (max-width: 576px) {
+    body {
+        flex-direction: column;
+    }
+    main {
+        flex-direction: column;
+        width: auto;
+    }
+    header {
+        width: auto;
+    }
+    
+    .header-logo {
+        width: 40px;
+        height: 50px;
+    } 
+
+    .text-area {
+        width: 100%;
+    }
+
+    .section-principal {
+        height: 720px;
+        margin-left: 0;
+    }
+
+    .information {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .information-icon {
+        height: 12px;
+        width: 12px;
+    }
+    
+    .information h6{
+        font-size: 0.75rem;
+    }
+    
+    .button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-encriptar {
+        border: none;
+        border-radius: 24px;
+        padding: 24px;
+        font-size: 1rem;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    .btn-desencriptar {
+        border: none;
+        border-radius: 24px;
+        background-color: #D8DFE8;
+        border: 1px solid ;
+        padding: 24px;
+        font-size: 1rem;
+        font-weight: 400;
+        width: 100%;
+        cursor: pointer;
+    }
+      
+
+    .section-mensagem {
+        width: 100%;
+        border-radius: 24px;
+        padding-left: 0;
+        padding-bottom: 2%;
+        padding-right: 0;
+        padding-top: 2%;
+        gap: 20px;
+    }
+
+    .img-busca{
+        width: 80%;
+    }
+
+    .mensagem {
+        width: 90%;
+        height: 80%;
+        border-radius: 24px;
+        background-image: none;
+        background-size: 0;
+    }
+
+    .mensagem-aviso {
+        width: 90%;
+    }
+
+    .btn-copiar {
+        border-radius: 24px;
+        cursor: pointer;
+        height: 70px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 1200px) {
+    body {
+        flex-direction: column;
+    }
+    main {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .text-area {
+        width: 100%;
+    }
+
+    .section-principal {
+        height: 600px;
+        margin-left: 0;
+    }
+    .information {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .information-icon {
+        height: 12px;
+        width: 12px;
+    }
+    
+    .information h6{
+        font-size: 0.75rem;
+    }
+    
+    .button {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .btn-encriptar {
+        border: none;
+        border-radius: 24px;
+        padding: 24px;
+        font-size: 1rem;
+        width: 50%;
+        cursor: pointer;
+    }
+
+    .btn-desencriptar {
+        border: none;
+        border-radius: 24px;
+        border: 1px solid ;
+        padding: 24px;
+        font-size: 1rem;
+        font-weight: 400;
+        width: 50%;
+        cursor: pointer;
+    }
+      
+
+    .section-mensagem {
+        width: 100%;
+        border-radius: 24px;
+        padding-left: 0;
+        padding-bottom: 2%;
+        padding-right: 0;
+        padding-top: 2%;
+        margin: 0;
+    }
+
+    .mensagem {
+        width: 90%;
+        border-radius: 24px;
+        border: none;
+        resize: none;
+    }
+
+    .img-busca {
+        width: 50%;
+    }
+
+    .mensagem-aviso {
+        width: 90%;
+        text-align: center;
+    }
+
+    .btn-copiar {
+        border-radius: 24px;
+        cursor: pointer;
+        height: 70px;
+        width: 40%;
+        font-size: 1rem;
+    }
+}
