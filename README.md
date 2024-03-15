@@ -14,7 +14,7 @@ Este é um decodificador de texto que desenvolvi como desafio dos cursos da Alur
 - **Descriptografar**: Esta função permite descriptografar um texto criptografado usando o mesmo algoritmo.
 - **Copiar texto**: Esta função permite que usuário copie para a área de tranferência o texto criptografado ou  descriptografado.
 
-![Tela desktop](img/capa.png)
+![Tela desktop](img/capa.jpg)
 
 ## Descrição do Projeto
 
